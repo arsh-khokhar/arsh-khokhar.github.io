@@ -1,0 +1,240 @@
+body {
+  background: #000;
+  font-family: Lato;
+  vertical-align: middle;
+}
+
+.nav a {
+  color: #aaaaaa;
+  background-color: none;
+  font-weight: bold;
+}
+
+.white {
+  color: white;
+}
+
+.navbar-header {
+  width: auto;
+  float: left;
+}
+
+.aqua {
+  color: #00d9ff;
+}
+
+.grey {
+  color: #cccccc;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nav {
+  margin-top: 1%;
+}
+
+.nav-underline {
+  width: inherit;
+}
+
+#main-nav-bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #040404;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar a {
+  color: #aaaaaa;
+  background-color: none;
+  font-weight: bold;
+}
+
+.navbar a:hover,
+.navbar .active > a,
+.navbar li:hover > a {
+  color: #fff;
+  background-color: none;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav .active > a,
+.nav li:hover > a {
+  color: #fff;
+  background-color: none;
+  text-decoration: none;
+}
+
+.nav .nav-underline:hover,
+.nav .active > .nav-underline,
+.nav li:hover > .nav-underline {
+  background-color: #00d9ff;
+  height: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+.content-section {
+  background-color: #040404;
+  color: #fff;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  position: fixed;
+  top: 10%;
+  font-size: large;
+  align-self: center;
+  margin: 2%;
+}
+
+.section-header-separator {
+  height: 2px;
+  background-color: #00d9ff88;
+  margin: 0% 1% 1% 1%;
+}
+
+.section-container {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home {
+  margin-top: 10%;
+  background: none;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.exp-row {
+  display: flex; /* equal height of the children */
+}
+
+.exp-col {
+  flex: 1; /* additionally, equal width */
+  padding: 1em;
+  margin-left: 1em;
+}
+
+.exp-logo-container {
+  vertical-align: middle;
+  height: 10em;
+  text-align: center;
+}
+
+.separator {
+  background-color: #555;
+  width: 2px;
+}
+
+#ea-logo {
+  width: 18em;
+  opacity: 0.5;
+}
+
+#ubi-logo {
+  width: 19em;
+  opacity: 0.5;
+}
+
+.social-links {
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+}
+
+.social-links a {
+  padding: 1em;
+  font-size: 1.5em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #00d9ff44;
+  text-decoration: none;
+  color: #fff;
+  line-height: 1;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  width: 1em;
+  height: 1em;
+}
+
+#social-links-centered a {
+  padding: 1em;
+  font-size: 2em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0, 0);
+  text-decoration: none;
+  color: #aaaaaa;
+  line-height: 1;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+}
+
+#social-links-centered {
+  position: fixed;
+  width: inherit;
+  text-align: center;
+  bottom: 0%;
+  z-index: 999999;
+}
+
+.social-links a:hover {
+  background: #00d9ff;
+}
+
+#social-links-centered a:hover {
+  color: #00d9ff;
+}
+
+.vertcenter {
+  width: 100%;
+  margin: 2% auto;
+}
+
+#contact-social-links a {
+  padding: 1em;
+  font-size: 2em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #00d9ff44;
+  text-decoration: none;
+  color: #fff;
+  line-height: 1;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  width: 1em;
+  height: 1em;
+}
+
+#contact-social-links a:hover {
+  background: #00d9ff;
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: right;
+  padding: 1em;
+  font-size: 1em;
+  color: #aaaaaa;
+  z-index: 9999;
+}

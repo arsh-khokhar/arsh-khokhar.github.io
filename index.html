@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="Libraries/p5.js"></script>
+    <script src="assets/js/sketch.js"></script>
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Arsh Khokhar</title>
+  </head>
+  <body>
+    <div class="section-container">
+      <section id="home" class="slider">
+        <div class="container">
+          <h1 class="white bolder display-3">Arsh Khokhar</h1>
+          <h2 class="aqua bold">Software Developer</p>
+          <h2 class="grey">Bachelor of Computer Science Honours, University of Manitoba</p>
+        </div>
+        <div class="container">
+          <nav>
+            <ul class="nav nav-pills" id="home-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home</a>
+                <div class="nav-underline"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About me</a>
+                <div class="nav-underline"></div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experience</a>
+                  <div class="nav-underline"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">Resume</a>
+                <div class="nav-underline"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+                <div class="nav-underline"></div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="social-links">
+          <a href="https://linkedin.com/in/arsh-khokhar" target="_blank" class="linkedin"><i
+              class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/arsh-khokhar" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+          <a href="mailto:arshkhokhar10@gmail.com" class="email"><i class="bx bxs-envelope"></i></a>
+        </div>
+      </section>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg hidden" id = "main-nav-bar">
+      <a class="navbar-brand aqua" href="#home" style="display: inline-block;">Arsh Khokhar</a>
+      <ul class="navbar-nav" style="display: inline;">
+        <li class="nav-item" style="display: inline;">
+          <a class="nav-link" href="#about" style="display: inline;">About me</a>
+        </li>
+        <li class="nav-item" style="display: inline;">
+            <a class="nav-link" href="#experience" style="display: inline;">Experience</a>
+        </li>
+        <li class="nav-item" style="display: inline;">
+          <a class="nav-link" href="#resume" style="display: inline;">Resume</a>
+        </li>
+        <li class="nav-item"style="display: inline;">
+          <a class="nav-link" href="#contact" style="display: inline;">Contact</a>
+          <div class="nav-underline"></div>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="section-container">
+      <section id="about" class="hidden content-section">
+        <h1 style="padding: 1%;">About Me</h1>
+        <div class="section-header-separator"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="assets/img/me.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0" style="margin-top: 1%;" data-aos="fade-left">
+              <div class="row">
+                <p>
+                  Hey! I am Arsh, a <i>Computer Science Honours Co-op</i> student at the University of Manitoba.
+                  I chose Computer Science for my career because of my interest in Problem solving and Mathematics. I am highly passionate about Computer Graphics,
+                  mainly because I get to make cool visuals and translate my knowledge of Physics and Math into renders that everyone can appreciate.
+                  I also like to work on web-based systems to feed my curiosity about distributed computing and systems
+                  design.
+                </p><br/>
+                <p>
+                  When I am not working on smart stuff, I enjoy listening to podcasts and comedies from my favorite
+                  comedians. I also like painting and graphic designing from time to time. If you would like to have a chat,
+                  work with me on something fun, or need any comedy content suggestions, feel free to reach out!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- <div class="section-container">
+      <section id="experience" class="hidden content-section">
+        <h1 style="padding: 1%;">Where I have worked</h1>
+        <div class="section-header-separator"></div>
+        <div class="container">
+          <div class="row exp-row">
+            <div class="col-lg-8 exp-col">
+              <div class="exp-logo-container">
+                <img src="assets/img/ea_fb.png" id="ea-logo" alt="" />
+              </div>
+              <p>
+                Electronic Arts (EA) is an American video game company, and Frostbite is its in-house game engine.
+                I worked as a Software Developer on Frostbite's Animation team at EA Vancouver for my second work-term.
+              </p>
+            </div>
+            <div class="separator"></div>
+            <div class="col-lg-8 exp-col">
+              <div class="exp-logo-container">
+                <img src="assets/img/ubisoft_white.png" id="ubi-logo" alt="" />
+              </div>
+              <p>
+                Ubisoft is a French video game company. I worked as a Tools Programmer at Ubisoft's Winnipeg studio for my first and third work-terms.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div> -->
+
+    <div class="section-container">
+      <section id="experience" class="hidden content-section">
+        <h1 style="padding: 1%;">Where I have worked</h1>
+        <div class="section-header-separator"></div>
+        <div class="container">
+          <div class="row" style="margin: 2%; margin-bottom: 4%;">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="assets/img/ea_fb.png" id="ea-logo" alt="">
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0" style="margin-top: 1%;" data-aos="fade-left">
+              <div class="row" style="margin-left: 4%;">
+                <p>
+                  Electronic Arts (EA) is an American video game company, and Frostbite is its in-house game engine.
+                  I worked as a Software Developer on Frostbite's Animation team at EA Vancouver for my second work-term.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="margin: 2%; margin-bottom: 4%;">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="assets/img/ubisoft_white.png" id="ubi-logo" alt="">
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0" style="margin-top: 1%;" data-aos="fade-left">
+              <div class="row" style="margin-left: 4%;">
+                <p>
+                  Ubisoft is a French video game company. I worked as a Tools Programmer at Ubisoft's Winnipeg studio for my first and third work-terms.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="section-container">
+      <section id="contact" class="hidden content-section">
+        <h1 style="padding: 1%;">Contact me</h1>
+        <div class="section-header-separator"></div>
+        <div class="container" id="contact-social-links">
+          <div class="vertcenter">
+            <a href="mailto:arshkhokhar10@gmail.com" class="email"><i class="bx bxs-envelope"></i></a>
+            <h3 style="display: inline;">arshkhokhar10@gmail.com</h3>
+          </div>
+          <div class="vertcenter">
+            <a href="https://linkedin.com/in/arsh-khokhar" target="_blank" class="linkedin"><i
+              class="bx bxl-linkedin"></i></a>
+              <h3 style="display: inline;">linkedin.com/in/arsh-khokhar</h3>
+          </div>
+          <div class="vertcenter">
+            <a href="https://github.com/arsh-khokhar" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+            <h3 style="display: inline;">github.com/arsh-khokhar</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="hidden" id="social-links-centered">
+      <a href="https://linkedin.com/in/arsh-khokhar" target="_blank" class="linkedin"><i
+          class="bx bxl-linkedin"></i></a>
+      <a href="https://github.com/arsh-khokhar" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+      <a href="mailto:arshkhokhar10@gmail.com" class="email"><i class="bx bxs-envelope"></i></a>
+    </div>
+
+    <footer>
+      &#xa9 Arsh Khokhar
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
