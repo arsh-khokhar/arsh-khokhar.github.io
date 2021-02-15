@@ -3,6 +3,12 @@ $ (document).ready (function () {
   $ ('#social-links-centered').show ();
   $ ('#home-nav > li > a').click (function (e) {
     e.preventDefault ();
+
+    if (this.href.split ('#').length == 1) {
+      window.location.href = this.href;
+      return;
+    }
+
     var sectionName = '#' + this.href.split ('#')[1];
     $ (currSection).hide ();
     currSection = sectionName;
@@ -19,6 +25,12 @@ $ (document).ready (function () {
   $ ('#main-nav-bar > ul > li > a').click (function (e) {
     e.preventDefault ();
     $ (currSection).hide ();
+
+    if (this.href.split ('#').length == 1) {
+      window.location.href = this.href;
+      return;
+    }
+
     var sectionName = '#' + this.href.split ('#')[1];
     currSection = sectionName;
     $ (sectionName).show ();
